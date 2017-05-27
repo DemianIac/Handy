@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.PrintWriter;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -78,8 +79,12 @@ import android.view.View.OnTouchListener;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.AdapterView.OnItemClickListener;
+
+import static android.R.attr.text;
+import static android.media.CamcorderProfile.get;
 
 public class MainActivity extends Activity implements CvCameraViewListener2 {
 
@@ -226,6 +231,12 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 
     File sdCardDir = Environment.getExternalStorageDirectory();
     File sdFile = new File(sdCardDir, "AppMap.txt");
+
+    private TextView textDetected;
+
+    private static final Integer RepetitionThreshold = 5;
+    private ArrayList<Integer> gesturesRecognized = new ArrayList(RepetitionThreshold);
+    private ArrayList<Integer> finalGestures = new ArrayList<Integer>();
 
     private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
         @Override
@@ -378,6 +389,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        textDetected = (TextView) findViewById(R.id.text_detected);
         try {
             FileInputStream fis = new FileInputStream(sdFile);
             ObjectInputStream ois = new ObjectInputStream(fis);
@@ -491,80 +503,6 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    public void restoreUI() {
-
-        setContentView(R.layout.activity_main);
-
-        mOpenCvCameraView = (MyCameraView) findViewById(R.id.HandGestureApp);
-        mOpenCvCameraView.enableView();
-
-        mOpenCvCameraView.setOnTouchListener(new OnTouchListener() {
-            public boolean onTouch(View v, MotionEvent event) {
-                // ... Respond to touch events
-                int action = MotionEventCompat.getActionMasked(event);
-
-                switch (action) {
-                    case (MotionEvent.ACTION_DOWN):
-                        Log.d(TAG, "Action was DOWN");
-                        String toastStr = null;
-                        if (mode == SAMPLE_MODE) {
-                            mode = DETECTION_MODE;
-                            toastStr = "Sampling Finished!";
-                        } else if (mode == DETECTION_MODE) {
-                            mode = TRAIN_REC_MODE;
-                            ((Button) findViewById(R.id.AddBtn)).setVisibility(View.VISIBLE);
-                            ((Button) findViewById(R.id.TrainBtn)).setVisibility(View.VISIBLE);
-                            ((Button) findViewById(R.id.TestBtn)).setVisibility(View.VISIBLE);
-                            toastStr = "Binary Display Finished!";
-
-                            preTrain();
-
-                        } else if (mode == TRAIN_REC_MODE) {
-                            mode = DETECTION_MODE;
-                            ((Button) findViewById(R.id.AddBtn)).setVisibility(View.INVISIBLE);
-                            ((Button) findViewById(R.id.TrainBtn)).setVisibility(View.INVISIBLE);
-                            ((Button) findViewById(R.id.TestBtn)).setVisibility(View.INVISIBLE);
-
-                            toastStr = "train finished!";
-                        } else if (mode == BACKGROUND_MODE) {
-                            toastStr = "First background sampled!";
-                            rgbaMat.copyTo(backMat);
-                            mode = SAMPLE_MODE;
-                        }
-
-                        Toast.makeText(getApplicationContext(), toastStr, Toast.LENGTH_LONG).show();
-                        return false;
-                    case (MotionEvent.ACTION_MOVE):
-                        Log.d(TAG, "Action was MOVE");
-                        return true;
-                    case (MotionEvent.ACTION_UP):
-                        Log.d(TAG, "Action was UP");
-                        return true;
-                    case (MotionEvent.ACTION_CANCEL):
-                        Log.d(TAG, "Action was CANCEL");
-                        return true;
-                    case (MotionEvent.ACTION_OUTSIDE):
-                        Log.d(TAG, "Movement occurred outside bounds " +
-                                "of current screen element");
-                        return true;
-                    default:
-                        return true;
-                }
-
-
-            }
-        });
-
-        mOpenCvCameraView.setVisibility(SurfaceView.VISIBLE);
-        mOpenCvCameraView.setCvCameraViewListener(this);
-
-        ((Button) findViewById(R.id.AddBtn)).setVisibility(View.VISIBLE);
-        ((Button) findViewById(R.id.TrainBtn)).setVisibility(View.VISIBLE);
-        ((Button) findViewById(R.id.TestBtn)).setVisibility(View.VISIBLE);
-
-
     }
 
     public void showDialogBeforeAdd(String title, String message) {
@@ -1047,7 +985,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
                 Log.d(TAG, "Succeed writing image to" + filename);
             } else
                 Toast.makeText(getApplicationContext(), "Fail writing image to external storage" + filename, Toast.LENGTH_SHORT).show();
-                Log.d(TAG, "Fail writing image to external storage");
+            Log.d(TAG, "Fail writing image to external storage");
 
             return bool;
         }
@@ -1366,10 +1304,22 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 
                 if (r == 0) {
 
-                    if (mode == TEST_MODE)
+                    if (mode == TEST_MODE) {
                         Core.putText(rgbaMat, Integer.toString(returnedLabel[0]), new Point(15,
                                 15), Core.FONT_HERSHEY_SIMPLEX, 0.6, mColorsRGB[0]);
-                    else if (mode == APP_TEST_MODE) { //Launching other apps
+                        if (returnedLabel[0] != 4){
+                            gesturesRecognized.add(returnedLabel[0]);
+                            Log.d(TAG, "onCameraFrame: " + returnedLabel[0]);
+                            runOnUiThread(new Runnable() {
+                                @Override
+                                public void run() {
+                                    checkNewLetter();
+                                }
+                            });
+                        }
+
+
+                    } else if (mode == APP_TEST_MODE) { //Launching other apps
                         Core.putText(rgbaMat, Integer.toString(returnedLabel[0]), new Point(15,
                                 15), Core.FONT_HERSHEY_SIMPLEX, 0.6, mColorsRGB[2]);
 
@@ -1984,5 +1934,34 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
         return dir.delete();
     }
 
+    public void checkNewLetter() {
+        if (gesturesRecognized.size() != RepetitionThreshold) {
+            return;
+        }
+        Integer lastGesture = gesturesRecognized.get(gesturesRecognized.size()-1);
+        Integer firstGesture = gesturesRecognized.remove(0);
+        if (lastGesture == firstGesture) {
+            Integer lastFinalGesture;
+            if (finalGestures.size() == 0) {
+                lastFinalGesture = null;
+            } else {
+                lastFinalGesture = finalGestures.get(finalGestures.size()-1);
+            }
+            if (lastFinalGesture == null || lastFinalGesture != lastGesture) {
+                finalGestures.add(lastGesture);
+                textDetected.setText(letterFor(lastGesture));
+            }
+            gesturesRecognized.clear();
+        }
+    }
+
+    public String letterFor(int gesture) {
+        switch (gesture) {
+            case 1: return "W";
+            case 2: return "O";
+            case 3: return "L";
+            default: return "";
+        }
+    }
 
 }

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/demianiacono/AndroidStudioProjects/HandGestureApp/aFileChooser/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dbf8bc802120988babf9ee8ab71d26c9e913eb64">
+        <dex dex="/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/pre-dexed/debug/classes_d42714d4f0c09aa0598843ea98a326f72fb83403.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/demianiacono/AndroidStudioProjects/HandGestureApp/openCVLibrary249/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="552092ca4462b2793c5057815b9c14e171c979f1">
+        <dex dex="/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/pre-dexed/debug/classes_aa68579a9f7fcf74690e3ef840587a3d0b1363cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/demianiacono/AndroidStudioProjects/HandGestureApp/aFileChooser/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dbf8bc802120988babf9ee8ab71d26c9e913eb64">
+        <dex dex="/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/pre-dexed/debug/classes_d42714d4f0c09aa0598843ea98a326f72fb83403.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/demianiacono/AndroidStudioProjects/HandGestureApp/openCVLibrary249/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="db4b723567638fa3ab5c0082e6bdfdf4d0c1505b">
+        <dex dex="/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/pre-dexed/debug/classes_aa68579a9f7fcf74690e3ef840587a3d0b1363cf.jar" />
+    </item>
+
+</items>

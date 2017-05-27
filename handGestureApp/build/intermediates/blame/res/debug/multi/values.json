@@ -1,0 +1,507 @@
+[
+    {
+        "outputFile": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 41,
+                    "endOffset": 92
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/aFileChooser/build/intermediates/bundles/default/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 41,
+                        "endOffset": 92
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 97,
+                    "endColumn": 42,
+                    "endOffset": 135
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/aFileChooser/build/intermediates/bundles/default/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 97,
+                        "endColumn": 42,
+                        "endOffset": 135
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 430,
+                    "endColumn": 57,
+                    "endOffset": 483
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 89,
+                        "endColumn": 57,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 488,
+                    "endColumn": 55,
+                    "endOffset": 539
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 55,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 544,
+                    "endColumn": 48,
+                    "endOffset": 588
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/aFileChooser/build/intermediates/bundles/default/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 140,
+                        "endColumn": 48,
+                        "endOffset": 184
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 593,
+                    "endColumn": 42,
+                    "endOffset": 631
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/aFileChooser/build/intermediates/bundles/default/res/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 189,
+                        "endColumn": 42,
+                        "endOffset": 227
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 636,
+                    "endColumn": 52,
+                    "endOffset": 684
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 352,
+                        "endColumn": 52,
+                        "endOffset": 400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 689,
+                    "endColumn": 52,
+                    "endOffset": 737
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 52,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 742,
+                    "endColumn": 52,
+                    "endOffset": 790
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 585,
+                        "endColumn": 52,
+                        "endOffset": 633
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 795,
+                    "endColumn": 51,
+                    "endOffset": 842
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 51,
+                        "endOffset": 103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 847,
+                    "endColumn": 45,
+                    "endOffset": 888
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 638,
+                        "endColumn": 45,
+                        "endOffset": 679
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 893,
+                    "endColumn": 53,
+                    "endOffset": 942
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/aFileChooser/build/intermediates/bundles/default/res/values/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 232,
+                        "endColumn": 53,
+                        "endOffset": 281
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 947,
+                    "endColumn": 58,
+                    "endOffset": 1001
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 405,
+                        "endColumn": 58,
+                        "endOffset": 459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1006,
+                    "endColumn": 59,
+                    "endOffset": 1061
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 214,
+                        "endColumn": 59,
+                        "endOffset": 269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1066,
+                    "endColumn": 59,
+                    "endOffset": 1121
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/aFileChooser/build/intermediates/bundles/default/res/values/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 286,
+                        "endColumn": 59,
+                        "endOffset": 341
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1126,
+                    "endColumn": 69,
+                    "endOffset": 1191
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/aFileChooser/build/intermediates/bundles/default/res/values/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 346,
+                        "endColumn": 69,
+                        "endOffset": 411
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1196,
+                    "endColumn": 52,
+                    "endOffset": 1244
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 161,
+                        "endColumn": 52,
+                        "endOffset": 209
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1249,
+                    "endColumn": 61,
+                    "endOffset": 1306
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/aFileChooser/build/intermediates/bundles/default/res/values/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 416,
+                        "endColumn": 61,
+                        "endOffset": 473
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1311,
+                    "endColumn": 45,
+                    "endOffset": 1352
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 464,
+                        "endColumn": 45,
+                        "endOffset": 505
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1357,
+                    "endColumn": 77,
+                    "endOffset": 1430
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/aFileChooser/build/intermediates/bundles/default/res/values/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 478,
+                        "endColumn": 77,
+                        "endOffset": 551
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1435,
+                    "endColumn": 37,
+                    "endOffset": 1468
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 314,
+                        "endColumn": 37,
+                        "endOffset": 347
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1473,
+                    "endColumn": 74,
+                    "endOffset": 1543
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endColumn": 74,
+                        "endOffset": 580
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1548,
+                    "endColumn": 39,
+                    "endOffset": 1583
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 274,
+                        "endColumn": 39,
+                        "endOffset": 309
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1588,
+                    "endLine": 36,
+                    "endColumn": 12,
+                    "endOffset": 1874
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1879,
+                    "endLine": 39,
+                    "endColumn": 12,
+                    "endOffset": 2034
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 665
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2039,
+                    "endLine": 48,
+                    "endColumn": 12,
+                    "endOffset": 2549
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/aFileChooser/build/intermediates/bundles/default/res/values/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 556,
+                        "endLine": 19,
+                        "endColumn": 12,
+                        "endOffset": 1066
+                    }
+                }
+            }
+        ]
+    }
+]
