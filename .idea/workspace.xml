@@ -6,6 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Set preview size to" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
@@ -20,16 +21,27 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_handGestureApp_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_handGestureApp_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_openCVLibrary249_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_openCVLibrary249_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_openCVLibrary249_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_openCVLibrary249_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/incremental/packageDebug/zip-cache/a6JkHNulqZoj_LKLWc051iHIwS8=" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/incremental/packageDebug/zip-cache/a6JkHNulqZoj_LKLWc051iHIwS8=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$2.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$3.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$4.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$5.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$6.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$7.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$8.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$9.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/pre-dexed/debug/classes_aa68579a9f7fcf74690e3ef840587a3d0b1363cf.jar" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/pre-dexed/debug/classes_aa68579a9f7fcf74690e3ef840587a3d0b1363cf.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/pre-dexed/debug/debug_1a92e4943632b92258cfa3c5e579b7847af23e08.jar" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/pre-dexed/debug/debug_1a92e4943632b92258cfa3c5e579b7847af23e08.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/tmp/expandedArchives/classes.jar_7nlsaezpgak9co2gxf63aujle/org/opencv/android/JavaCameraView.class" afterPath="$PROJECT_DIR$/handGestureApp/build/tmp/expandedArchives/classes.jar_7nlsaezpgak9co2gxf63aujle/org/opencv/android/JavaCameraView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary249/build/intermediates/bundles/default/classes.jar" afterPath="$PROJECT_DIR$/openCVLibrary249/build/intermediates/bundles/default/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary249/build/intermediates/classes/release/org/opencv/android/JavaCameraView.class" afterPath="$PROJECT_DIR$/openCVLibrary249/build/intermediates/classes/release/org/opencv/android/JavaCameraView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary249/build/outputs/aar/openCVLibrary249-release.aar" afterPath="$PROJECT_DIR$/openCVLibrary249/build/outputs/aar/openCVLibrary249-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/res/merged/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/handGestureApp/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/src/main/java/com/example/newdemo/MainActivity.java" afterPath="$PROJECT_DIR$/handGestureApp/src/main/java/com/example/newdemo/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/handGestureApp/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openCVLibrary249/src/main/java/org/opencv/android/JavaCameraView.java" afterPath="$PROJECT_DIR$/openCVLibrary249/src/main/java/org/opencv/android/JavaCameraView.java" />
     </list>
     <ignored path="HandGestureApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,11 +75,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JavaCameraView.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JavaCameraView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/openCVLibrary249/src/main/java/org/opencv/android/JavaCameraView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="173" column="42" selection-start-line="173" selection-start-column="31" selection-end-line="173" selection-end-column="42" />
+            <state relative-caret-position="1099">
+              <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,25 +90,10 @@
       <file leaf-file-name="MyCameraView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/java/com/example/newdemo/MyCameraView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="100" column="36" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="36" />
+            <state relative-caret-position="306">
+              <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="22" column="48" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="48" />
-              <folding>
-                <element signature="e#560#578#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
           </provider>
         </entry>
       </file>
@@ -113,8 +110,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/java/com/example/newdemo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="262" column="39" selection-start-line="262" selection-start-column="39" selection-end-line="262" selection-end-column="39" />
+            <state relative-caret-position="172">
+              <caret line="392" column="65" selection-start-line="392" selection-start-column="52" selection-end-line="392" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#5241#5258#0" expanded="true" />
@@ -123,25 +120,25 @@
                 <element signature="e#7753#7762#0" expanded="true" />
                 <element signature="e#8688#12153#0" expanded="true" />
                 <element signature="e#12152#12153#0" expanded="true" />
-                <element signature="e#18435#18792#0" expanded="true" />
-                <element signature="e#18791#18792#0" expanded="true" />
-                <element signature="e#18835#19270#0" expanded="true" />
-                <element signature="e#19269#19270#0" expanded="true" />
-                <element signature="e#19933#20403#0" expanded="true" />
-                <element signature="e#20402#20403#0" expanded="true" />
-                <element signature="e#20448#21098#0" expanded="true" />
-                <element signature="e#21097#21098#0" expanded="true" />
-                <element signature="e#21188#21585#0" expanded="true" />
-                <element signature="e#21584#21585#0" expanded="true" />
-                <element signature="e#23741#23774#0" expanded="true" />
-                <element signature="e#35325#35623#0" expanded="true" />
-                <element signature="e#35622#35623#0" expanded="true" />
-                <element signature="e#41008#41370#0" expanded="true" />
-                <element signature="e#41369#41370#0" expanded="true" />
-                <element signature="e#43147#43375#0" expanded="true" />
-                <element signature="e#43374#43375#0" expanded="true" />
-                <element signature="e#49240#49249#0" expanded="true" />
-                <element signature="e#56521#56528#0" expanded="true" />
+                <element signature="e#16707#17064#0" expanded="true" />
+                <element signature="e#17063#17064#0" expanded="true" />
+                <element signature="e#17107#17542#0" expanded="true" />
+                <element signature="e#17541#17542#0" expanded="true" />
+                <element signature="e#18205#18675#0" expanded="true" />
+                <element signature="e#18674#18675#0" expanded="true" />
+                <element signature="e#18720#19370#0" expanded="true" />
+                <element signature="e#19369#19370#0" expanded="true" />
+                <element signature="e#19460#19857#0" expanded="true" />
+                <element signature="e#19856#19857#0" expanded="true" />
+                <element signature="e#22013#22046#0" expanded="true" />
+                <element signature="e#33597#33895#0" expanded="true" />
+                <element signature="e#33894#33895#0" expanded="true" />
+                <element signature="e#39280#39642#0" expanded="true" />
+                <element signature="e#39641#39642#0" expanded="true" />
+                <element signature="e#41419#41647#0" expanded="true" />
+                <element signature="e#41646#41647#0" expanded="true" />
+                <element signature="e#47512#47521#0" expanded="true" />
+                <element signature="e#54793#54800#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,15 +157,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="144">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
               <folding>
-                <element signature="e#1374#1394#0" expanded="true" />
-                <element signature="e#1836#1851#0" expanded="true" />
-                <element signature="e#2251#2265#0" expanded="true" />
+                <element signature="e#1040#1060#0" expanded="true" />
+                <element signature="e#1422#1437#0" expanded="true" />
+                <element signature="e#1765#1779#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -3374,14 +3371,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/handGestureApp/src/main/java/com/example/newdemo/MyCameraView.java" />
         <option value="$PROJECT_DIR$/openCVLibrary249/src/main/java/org/opencv/android/CameraBridgeViewBase.java" />
         <option value="$PROJECT_DIR$/openCVLibrary249/build.gradle" />
         <option value="$PROJECT_DIR$/handGestureApp/build.gradle" />
+        <option value="$PROJECT_DIR$/handGestureApp/src/main/java/com/example/newdemo/MyCameraView.java" />
         <option value="$PROJECT_DIR$/handGestureApp/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/handGestureApp/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/handGestureApp/src/main/java/com/example/newdemo/MainActivity.java" />
         <option value="$PROJECT_DIR$/openCVLibrary249/src/main/java/org/opencv/android/JavaCameraView.java" />
+        <option value="$PROJECT_DIR$/handGestureApp/src/main/res/layout/activity_main.xml" />
       </list>
     </option>
   </component>
@@ -3769,7 +3766,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968834" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968834" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3778,9 +3775,9 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25478405" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Memory View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986331" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24986331" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991131" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3792,6 +3789,37 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Memory View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986331" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991131" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968834" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25478405" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -3808,19 +3836,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/handGestureApp/src/main/java/com/example/newdemo/MainActivity.java</url>
-          <line>489</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/openCVLibrary249/src/main/java/org/opencv/android/JavaCameraView.java</url>
           <line>139</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -3889,25 +3911,25 @@
             <element signature="e#7753#7762#0" expanded="true" />
             <element signature="e#8688#12153#0" expanded="true" />
             <element signature="e#12152#12153#0" expanded="true" />
-            <element signature="e#18435#18792#0" expanded="true" />
-            <element signature="e#18791#18792#0" expanded="true" />
-            <element signature="e#18835#19270#0" expanded="true" />
-            <element signature="e#19269#19270#0" expanded="true" />
-            <element signature="e#19933#20403#0" expanded="true" />
-            <element signature="e#20402#20403#0" expanded="true" />
-            <element signature="e#20448#21098#0" expanded="true" />
-            <element signature="e#21097#21098#0" expanded="true" />
-            <element signature="e#21188#21585#0" expanded="true" />
-            <element signature="e#21584#21585#0" expanded="true" />
-            <element signature="e#23741#23774#0" expanded="true" />
-            <element signature="e#35325#35623#0" expanded="true" />
-            <element signature="e#35622#35623#0" expanded="true" />
-            <element signature="e#41008#41370#0" expanded="true" />
-            <element signature="e#41369#41370#0" expanded="true" />
-            <element signature="e#43147#43375#0" expanded="true" />
-            <element signature="e#43374#43375#0" expanded="true" />
-            <element signature="e#49240#49249#0" expanded="true" />
-            <element signature="e#56521#56528#0" expanded="true" />
+            <element signature="e#16707#17064#0" expanded="true" />
+            <element signature="e#17063#17064#0" expanded="true" />
+            <element signature="e#17107#17542#0" expanded="true" />
+            <element signature="e#17541#17542#0" expanded="true" />
+            <element signature="e#18205#18675#0" expanded="true" />
+            <element signature="e#18674#18675#0" expanded="true" />
+            <element signature="e#18720#19370#0" expanded="true" />
+            <element signature="e#19369#19370#0" expanded="true" />
+            <element signature="e#19460#19857#0" expanded="true" />
+            <element signature="e#19856#19857#0" expanded="true" />
+            <element signature="e#22013#22046#0" expanded="true" />
+            <element signature="e#33597#33895#0" expanded="true" />
+            <element signature="e#33894#33895#0" expanded="true" />
+            <element signature="e#39280#39642#0" expanded="true" />
+            <element signature="e#39641#39642#0" expanded="true" />
+            <element signature="e#41419#41647#0" expanded="true" />
+            <element signature="e#41646#41647#0" expanded="true" />
+            <element signature="e#47512#47521#0" expanded="true" />
+            <element signature="e#54793#54800#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3987,25 +4009,25 @@
             <element signature="e#7753#7762#0" expanded="true" />
             <element signature="e#8688#12153#0" expanded="true" />
             <element signature="e#12152#12153#0" expanded="true" />
-            <element signature="e#18435#18792#0" expanded="true" />
-            <element signature="e#18791#18792#0" expanded="true" />
-            <element signature="e#18835#19270#0" expanded="true" />
-            <element signature="e#19269#19270#0" expanded="true" />
-            <element signature="e#19933#20403#0" expanded="true" />
-            <element signature="e#20402#20403#0" expanded="true" />
-            <element signature="e#20448#21098#0" expanded="true" />
-            <element signature="e#21097#21098#0" expanded="true" />
-            <element signature="e#21188#21585#0" expanded="true" />
-            <element signature="e#21584#21585#0" expanded="true" />
-            <element signature="e#23741#23774#0" expanded="true" />
-            <element signature="e#35325#35623#0" expanded="true" />
-            <element signature="e#35622#35623#0" expanded="true" />
-            <element signature="e#41008#41370#0" expanded="true" />
-            <element signature="e#41369#41370#0" expanded="true" />
-            <element signature="e#43147#43375#0" expanded="true" />
-            <element signature="e#43374#43375#0" expanded="true" />
-            <element signature="e#49240#49249#0" expanded="true" />
-            <element signature="e#56521#56528#0" expanded="true" />
+            <element signature="e#16707#17064#0" expanded="true" />
+            <element signature="e#17063#17064#0" expanded="true" />
+            <element signature="e#17107#17542#0" expanded="true" />
+            <element signature="e#17541#17542#0" expanded="true" />
+            <element signature="e#18205#18675#0" expanded="true" />
+            <element signature="e#18674#18675#0" expanded="true" />
+            <element signature="e#18720#19370#0" expanded="true" />
+            <element signature="e#19369#19370#0" expanded="true" />
+            <element signature="e#19460#19857#0" expanded="true" />
+            <element signature="e#19856#19857#0" expanded="true" />
+            <element signature="e#22013#22046#0" expanded="true" />
+            <element signature="e#33597#33895#0" expanded="true" />
+            <element signature="e#33894#33895#0" expanded="true" />
+            <element signature="e#39280#39642#0" expanded="true" />
+            <element signature="e#39641#39642#0" expanded="true" />
+            <element signature="e#41419#41647#0" expanded="true" />
+            <element signature="e#41646#41647#0" expanded="true" />
+            <element signature="e#47512#47521#0" expanded="true" />
+            <element signature="e#54793#54800#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4015,9 +4037,9 @@
         <state relative-caret-position="216">
           <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
           <folding>
-            <element signature="e#1374#1394#0" expanded="true" />
-            <element signature="e#1836#1851#0" expanded="true" />
-            <element signature="e#2251#2265#0" expanded="true" />
+            <element signature="e#1040#1060#0" expanded="true" />
+            <element signature="e#1422#1437#0" expanded="true" />
+            <element signature="e#1765#1779#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4076,25 +4098,25 @@
             <element signature="e#7753#7762#0" expanded="true" />
             <element signature="e#8688#12153#0" expanded="true" />
             <element signature="e#12152#12153#0" expanded="true" />
-            <element signature="e#18435#18792#0" expanded="true" />
-            <element signature="e#18791#18792#0" expanded="true" />
-            <element signature="e#18835#19270#0" expanded="true" />
-            <element signature="e#19269#19270#0" expanded="true" />
-            <element signature="e#19933#20403#0" expanded="true" />
-            <element signature="e#20402#20403#0" expanded="true" />
-            <element signature="e#20448#21098#0" expanded="true" />
-            <element signature="e#21097#21098#0" expanded="true" />
-            <element signature="e#21188#21585#0" expanded="true" />
-            <element signature="e#21584#21585#0" expanded="true" />
-            <element signature="e#23741#23774#0" expanded="true" />
-            <element signature="e#35325#35623#0" expanded="true" />
-            <element signature="e#35622#35623#0" expanded="true" />
-            <element signature="e#41008#41370#0" expanded="true" />
-            <element signature="e#41369#41370#0" expanded="true" />
-            <element signature="e#43147#43375#0" expanded="true" />
-            <element signature="e#43374#43375#0" expanded="true" />
-            <element signature="e#49240#49249#0" expanded="true" />
-            <element signature="e#56521#56528#0" expanded="true" />
+            <element signature="e#16707#17064#0" expanded="true" />
+            <element signature="e#17063#17064#0" expanded="true" />
+            <element signature="e#17107#17542#0" expanded="true" />
+            <element signature="e#17541#17542#0" expanded="true" />
+            <element signature="e#18205#18675#0" expanded="true" />
+            <element signature="e#18674#18675#0" expanded="true" />
+            <element signature="e#18720#19370#0" expanded="true" />
+            <element signature="e#19369#19370#0" expanded="true" />
+            <element signature="e#19460#19857#0" expanded="true" />
+            <element signature="e#19856#19857#0" expanded="true" />
+            <element signature="e#22013#22046#0" expanded="true" />
+            <element signature="e#33597#33895#0" expanded="true" />
+            <element signature="e#33894#33895#0" expanded="true" />
+            <element signature="e#39280#39642#0" expanded="true" />
+            <element signature="e#39641#39642#0" expanded="true" />
+            <element signature="e#41419#41647#0" expanded="true" />
+            <element signature="e#41646#41647#0" expanded="true" />
+            <element signature="e#47512#47521#0" expanded="true" />
+            <element signature="e#54793#54800#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4263,19 +4285,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="48" />
-          <folding>
-            <element signature="e#560#578#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/res/menu/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -4287,25 +4296,33 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/res/layout/activity_main.xml">
+    <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="144">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding>
-            <element signature="e#1374#1394#0" expanded="true" />
-            <element signature="e#1836#1851#0" expanded="true" />
-            <element signature="e#2251#2265#0" expanded="true" />
+            <element signature="e#560#578#0" expanded="true" />
           </folding>
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
+      <provider editor-type-id="android-manifest">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary249/src/main/java/org/opencv/android/JavaCameraView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1099">
+          <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/java/com/example/newdemo/MyCameraView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="100" column="36" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="36" />
+        <state relative-caret-position="306">
+          <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
           <folding />
         </state>
       </provider>
@@ -4320,8 +4337,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/java/com/example/newdemo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="262" column="39" selection-start-line="262" selection-start-column="39" selection-end-line="262" selection-end-column="39" />
+        <state relative-caret-position="172">
+          <caret line="392" column="65" selection-start-line="392" selection-start-column="52" selection-end-line="392" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#5241#5258#0" expanded="true" />
@@ -4330,37 +4347,42 @@
             <element signature="e#7753#7762#0" expanded="true" />
             <element signature="e#8688#12153#0" expanded="true" />
             <element signature="e#12152#12153#0" expanded="true" />
-            <element signature="e#18435#18792#0" expanded="true" />
-            <element signature="e#18791#18792#0" expanded="true" />
-            <element signature="e#18835#19270#0" expanded="true" />
-            <element signature="e#19269#19270#0" expanded="true" />
-            <element signature="e#19933#20403#0" expanded="true" />
-            <element signature="e#20402#20403#0" expanded="true" />
-            <element signature="e#20448#21098#0" expanded="true" />
-            <element signature="e#21097#21098#0" expanded="true" />
-            <element signature="e#21188#21585#0" expanded="true" />
-            <element signature="e#21584#21585#0" expanded="true" />
-            <element signature="e#23741#23774#0" expanded="true" />
-            <element signature="e#35325#35623#0" expanded="true" />
-            <element signature="e#35622#35623#0" expanded="true" />
-            <element signature="e#41008#41370#0" expanded="true" />
-            <element signature="e#41369#41370#0" expanded="true" />
-            <element signature="e#43147#43375#0" expanded="true" />
-            <element signature="e#43374#43375#0" expanded="true" />
-            <element signature="e#49240#49249#0" expanded="true" />
-            <element signature="e#56521#56528#0" expanded="true" />
+            <element signature="e#16707#17064#0" expanded="true" />
+            <element signature="e#17063#17064#0" expanded="true" />
+            <element signature="e#17107#17542#0" expanded="true" />
+            <element signature="e#17541#17542#0" expanded="true" />
+            <element signature="e#18205#18675#0" expanded="true" />
+            <element signature="e#18674#18675#0" expanded="true" />
+            <element signature="e#18720#19370#0" expanded="true" />
+            <element signature="e#19369#19370#0" expanded="true" />
+            <element signature="e#19460#19857#0" expanded="true" />
+            <element signature="e#19856#19857#0" expanded="true" />
+            <element signature="e#22013#22046#0" expanded="true" />
+            <element signature="e#33597#33895#0" expanded="true" />
+            <element signature="e#33894#33895#0" expanded="true" />
+            <element signature="e#39280#39642#0" expanded="true" />
+            <element signature="e#39641#39642#0" expanded="true" />
+            <element signature="e#41419#41647#0" expanded="true" />
+            <element signature="e#41646#41647#0" expanded="true" />
+            <element signature="e#47512#47521#0" expanded="true" />
+            <element signature="e#54793#54800#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openCVLibrary249/src/main/java/org/opencv/android/JavaCameraView.java">
+    <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="173" column="42" selection-start-line="173" selection-start-column="31" selection-end-line="173" selection-end-column="42" />
+        <state relative-caret-position="144">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1040#1060#0" expanded="true" />
+            <element signature="e#1422#1437#0" expanded="true" />
+            <element signature="e#1765#1779#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
   </component>

@@ -454,52 +454,6 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     }
 
 
-    //Things triggered by clicking any items in the menu start here
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle item selection
-
-        switch (item.getItemId()) {
-            case R.id.action_save:
-                isPictureSaved = true;
-                //  savePicture();
-                return true;
-            case R.id.data_collection:
-                callDataCollection();
-                return true;
-            case R.id.map_apps:
-                callMapApps();
-                return true;
-            case R.id.app_test:
-                if (mode == APP_TEST_MODE) {
-                    mode = TRAIN_REC_MODE;
-                    Toast.makeText(getApplicationContext(), "App testing ends!", Toast.LENGTH_LONG).show();
-                } else {
-                    mode = APP_TEST_MODE;
-                    Toast.makeText(getApplicationContext(), "App testing begins!", Toast.LENGTH_LONG).show();
-                    appTestFrameCount = 0;
-                }
-                return true;
-            //  default:
-            //    return super.onOptionsItemSelected(item);
-        }
-
-        int groupId = item.getGroupId();
-
-        if (item.getGroupId() == 2) {
-            int id = item.getItemId();
-            Camera.Size resolution = mResolutionList.get(id);
-            mOpenCvCameraView.setResolution(resolution);
-            resolution = mOpenCvCameraView.getResolution();
-            String caption = Integer.valueOf(resolution.width).toString() + "x" + Integer.valueOf(resolution.height).toString();
-            Toast.makeText(this, caption, Toast.LENGTH_SHORT).show();
-
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
     public void showDialogBeforeAdd(String title, String message) {
         Log.i("Show Dialog", "Entered");
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
