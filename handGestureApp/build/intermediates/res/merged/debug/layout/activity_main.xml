@@ -6,38 +6,60 @@
 
                 android:orientation="vertical"
                 tools:context=".MainActivity">
-<FrameLayout android:layout_width="395dp" android:layout_height="match_parent">
-    <com.example.newdemo.MyCameraView
-        android:id="@+id/HandGestureApp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        opencv:camera_id="front"
-    />
-</FrameLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+        <FrameLayout android:layout_width="395dp" android:layout_height="match_parent">
+            <com.example.newdemo.MyCameraView
+                android:id="@+id/HandGestureApp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                opencv:camera_id="front"
+            />
+        </FrameLayout>
+        <FrameLayout android:layout_width="wrap_content"
+                     android:layout_height="match_parent">
+            <Button
+                android:id="@+id/AddBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="66dp"
+                android:onClick="addNewGesture"
+                android:text="@string/AddGesture"
+                android:visibility="invisible"/>
 
-    <Button
-        android:id="@+id/AddBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="66dp"
-        android:onClick="addNewGesture"
-        android:text="@string/AddGesture"
-        android:visibility="invisible"/>
+            <Button
+                android:id="@+id/TrainBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:onClick="train"
+                android:text="@string/train"
+                android:visibility="invisible"/>
 
-    <Button
-        android:id="@+id/TrainBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/AddBtn"
-        android:layout_below="@+id/AddBtn"
-        android:layout_marginTop="29dp"
-        android:onClick="train"
-        android:text="@string/train"
-        android:visibility="invisible"/>
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:layout_gravity="bottom">
+                <Button android:id="@+id/TestBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:onClick="test"
+                        android:text="Record Signs"
+                />
+                <Button android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:onClick="hearSpeech"
+                        android:text="Translate speech"
+                />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
 
-    <Button
+
+
+<!--    <Button
         android:id="@+id/TestBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -45,7 +67,7 @@
         android:layout_alignRight="@+id/TrainBtn"
         android:onClick="test"
         android:text="@string/test"
-        android:visibility="invisible"/>
+        android:visibility="invisible"/>-->
 
     <TextView
         android:id="@+id/text_detected"

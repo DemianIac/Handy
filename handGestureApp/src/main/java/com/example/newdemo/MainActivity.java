@@ -1,59 +1,5 @@
 package com.example.newdemo;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.PrintWriter;
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Map;
-import java.lang.Math;
-
-import org.opencv.android.JavaCameraView;
-
-import org.opencv.android.BaseLoaderCallback;
-import org.opencv.android.CameraBridgeViewBase;
-import org.opencv.android.LoaderCallbackInterface;
-import org.opencv.android.CameraBridgeViewBase.CvCameraViewFrame;
-import org.opencv.android.CameraBridgeViewBase.CvCameraViewListener2;
-import org.opencv.android.OpenCVLoader;
-import org.opencv.core.Core;
-import org.opencv.core.MatOfFloat;
-import org.opencv.core.MatOfInt;
-import org.opencv.core.MatOfPoint;
-import org.opencv.core.MatOfPoint2f;
-import org.opencv.core.Point;
-import org.opencv.core.Mat;
-import org.opencv.core.Scalar;
-import org.opencv.core.Size;
-import org.opencv.core.Rect;
-
-import org.opencv.highgui.Highgui;
-import org.opencv.imgproc.Imgproc;
-import org.opencv.imgproc.Moments;
-
-import com.example.newdemo.AppInfo;
-import com.example.newdemo.BrowseApplicationInfoAdapter;
-import com.example.newdemo.R;
-import com.ipaulpro.afilechooser.utils.FileUtils;
-
-import android.net.Uri;
-import android.os.Bundle;
-import android.os.Environment;
-import android.os.Handler;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
@@ -67,27 +13,57 @@ import android.content.pm.ResolveInfo;
 import android.graphics.drawable.Drawable;
 import android.hardware.Camera;
 import android.hardware.Camera.AutoFocusCallback;
+import android.net.Uri;
+import android.os.Bundle;
+import android.os.Environment;
+import android.os.Handler;
+import android.speech.RecognizerIntent;
+import android.speech.tts.TextToSpeech;
 import android.support.v4.view.MotionEventCompat;
 import android.util.Log;
 import android.view.Menu;
-import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.SubMenu;
 import android.view.SurfaceView;
 import android.view.View;
 import android.view.View.OnTouchListener;
-import android.widget.AdapterView;
 import android.widget.Button;
-import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.AdapterView.OnItemClickListener;
 
-import static android.R.attr.id;
-import static android.R.attr.text;
-import static android.media.CamcorderProfile.get;
+import com.ipaulpro.afilechooser.utils.FileUtils;
 
-public class MainActivity extends Activity implements CvCameraViewListener2 {
+import org.opencv.android.BaseLoaderCallback;
+import org.opencv.android.CameraBridgeViewBase.CvCameraViewFrame;
+import org.opencv.android.CameraBridgeViewBase.CvCameraViewListener2;
+import org.opencv.android.LoaderCallbackInterface;
+import org.opencv.android.OpenCVLoader;
+import org.opencv.core.Core;
+import org.opencv.core.Mat;
+import org.opencv.core.MatOfPoint;
+import org.opencv.core.Point;
+import org.opencv.core.Rect;
+import org.opencv.core.Scalar;
+import org.opencv.core.Size;
+import org.opencv.highgui.Highgui;
+import org.opencv.imgproc.Imgproc;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+
+public class MainActivity extends Activity implements CvCameraViewListener2, TextToSpeech.OnInitListener {
 
     //Just for debugging
     private static final String TAG = "HandGestureApp";
@@ -160,8 +136,6 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 
     private List<AppInfo> mlistAppInfo = null;
     private MyCameraView mOpenCvCameraView;
-    //private MenuItem[] mResolutionMenuItems;
-    private SubMenu mResolutionMenu;
 
 
     private List<android.hardware.Camera.Size> mResolutionList;
@@ -235,9 +209,12 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 
     private TextView textDetected;
 
-    private static final Integer RepetitionThreshold = 5;
+    private static final Integer RepetitionThreshold = 8;
     private ArrayList<Integer> gesturesRecognized = new ArrayList(RepetitionThreshold);
     private ArrayList<Integer> finalGestures = new ArrayList<Integer>();
+
+    private TextToSpeech tts;
+    private final int REQ_CODE_SPEECH_INPUT = 100;
 
     private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
         @Override
@@ -278,9 +255,9 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
                                     } else if (mode == DETECTION_MODE) {
                                         mode = TRAIN_REC_MODE;
 //BUTTONS TRAINING
- /*                                       ((Button) findViewById(R.id.AddBtn)).setVisibility(View.VISIBLE);
+                                        ((Button) findViewById(R.id.AddBtn)).setVisibility(View.VISIBLE);
                                         ((Button) findViewById(R.id.TrainBtn)).setVisibility(View.VISIBLE);
-                                        ((Button) findViewById(R.id.TestBtn)).setVisibility(View.VISIBLE);*/
+                                        ((Button) findViewById(R.id.TestBtn)).setVisibility(View.VISIBLE);
                                         toastStr = "Binary Display Finished!";
 
                                         preTrain();
@@ -390,7 +367,11 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        getActionBar().setTitle("Handy");
+        getActionBar().setico
+        tts = new TextToSpeech(this, this);
         textDetected = (TextView) findViewById(R.id.text_detected);
+
         try {
             FileInputStream fis = new FileInputStream(sdFile);
             ObjectInputStream ois = new ObjectInputStream(fis);
@@ -708,6 +689,14 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
                     }
                 }
                 break;
+            case REQ_CODE_SPEECH_INPUT: {
+                if (resultCode == RESULT_OK && data != null) {
+                    ArrayList<String> result = data
+                            .getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+                    textDetected.setText(result.get(0));
+                }
+                break;
+            }
         }
         super.onActivityResult(requestCode, resultCode, data);
     }
@@ -873,6 +862,29 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 
     }
 
+    public void readOutLoud() {
+        String text = "";
+        for (Integer gesture: finalGestures) {
+            text += letterFor(gesture).toLowerCase();
+        }
+        tts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
+        finalGestures.clear();
+    }
+
+    public void hearSpeech(View view) {
+        Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,
+                RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+        Locale spanish = new Locale("spa", "ARG");
+        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, spanish);
+        //intent.putExtra(RecognizerIntent.EXTRA_PROMPT, getString(R.string.speech_prompt));
+        try {
+            startActivityForResult(intent, REQ_CODE_SPEECH_INPUT);
+        } catch (ActivityNotFoundException a) {
+            Toast.makeText(getApplicationContext(), "Language not supported", Toast.LENGTH_SHORT);
+        }
+    }
+
     //Called when user clicks "Train" button
     public void train(View view) {
         train();
@@ -880,11 +892,14 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 
     //Called when user clicks "Test" button
     public void test(View view) {
-
-        if (mode == TRAIN_REC_MODE)
+        if (mode == TRAIN_REC_MODE) {
             mode = TEST_MODE;
-        else if (mode == TEST_MODE) {
+            ((Button) findViewById(R.id.TestBtn)).setText("Stop recording");
+        } else if (mode == TEST_MODE) {
+            gesturesRecognized.clear();
+            readOutLoud();
             mode = TRAIN_REC_MODE;
+            ((Button) findViewById(R.id.TestBtn)).setText("Record Signs");
         }
     }
 
@@ -1228,7 +1243,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 
 
                 String modelFile = storeFolderName + "/model";
-                int[] returnedLabel = {0};
+                final int[] returnedLabel = {0};
                 double[] returnedProb = {0.0};
 
                 //Predicted labels are stored in returnedLabel
@@ -1240,9 +1255,9 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
                     if (mode == TEST_MODE) {
                         Core.putText(rgbaMat, Integer.toString(returnedLabel[0]), new Point(15,
                                 15), Core.FONT_HERSHEY_SIMPLEX, 0.6, mColorsRGB[0]);
-                        if (returnedLabel[0] != 4){
+                        Log.d(TAG, "onCameraFrame: " + returnedLabel[0]);
+                        if (returnedLabel[0] != 1 || returnedLabel[0] != 6) {
                             gesturesRecognized.add(returnedLabel[0]);
-                            Log.d(TAG, "onCameraFrame: " + returnedLabel[0]);
                             runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {
@@ -1250,25 +1265,14 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
                                 }
                             });
                         }
-
-
-                    } else if (mode == APP_TEST_MODE) { //Launching other apps
-                        Core.putText(rgbaMat, Integer.toString(returnedLabel[0]), new Point(15,
-                                15), Core.FONT_HERSHEY_SIMPLEX, 0.6, mColorsRGB[2]);
-
-                        if (returnedLabel[0] != 0) {
-
-                            if (appTestFrameCount == APP_TEST_DELAY_NUM) {
-
-                                //Call other apps according to the predicted label
-                                //This is done every APP_TEST_DELAY_NUM frames
-                                callAppByLabel(returnedLabel[0]);
-                            } else {
-                                appTestFrameCount++;
-                            }
-
-
-                        }
+                        /*else {
+                            runOnUiThread(new Runnable() {
+                                @Override
+                                public void run() {
+                                    textDetected.setText("Not a letter: " + Integer.toString(returnedLabel[0]));
+                                }
+                            });
+                        }*/
                     }
                 }
             }
@@ -1814,9 +1818,28 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     }
 
     @Override
+    public void onInit(int status) {
+        if (status == TextToSpeech.SUCCESS) {
+            Locale spanish = new Locale("spa", "ARG");
+            int result = tts.setLanguage(spanish);
+            if (result == TextToSpeech.LANG_MISSING_DATA
+                    || result == TextToSpeech.LANG_NOT_SUPPORTED) {
+                Toast.makeText(getApplicationContext(), "Language nor supported", Toast.LENGTH_LONG);
+            } else {
+                //Its working
+            }
+        }
+    }
+
+    @Override
     public void onDestroy() {
         Log.i(TAG, "Destroyed!");
         releaseCVMats();
+
+        if (tts != null) {
+            tts.stop();
+            tts.shutdown();
+        }
 
         super.onDestroy();
         if (mOpenCvCameraView != null) {
@@ -1871,14 +1894,14 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
         if (gesturesRecognized.size() != RepetitionThreshold) {
             return;
         }
-        Integer lastGesture = gesturesRecognized.get(gesturesRecognized.size()-1);
+        Integer lastGesture = gesturesRecognized.get(gesturesRecognized.size() - 1);
         Integer firstGesture = gesturesRecognized.remove(0);
         if (lastGesture == firstGesture) {
             Integer lastFinalGesture;
             if (finalGestures.size() == 0) {
                 lastFinalGesture = null;
             } else {
-                lastFinalGesture = finalGestures.get(finalGestures.size()-1);
+                lastFinalGesture = finalGestures.get(finalGestures.size() - 1);
             }
             if (lastFinalGesture == null || lastFinalGesture != lastGesture) {
                 finalGestures.add(lastGesture);
@@ -1890,10 +1913,20 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 
     public String letterFor(int gesture) {
         switch (gesture) {
-            case 1: return "W";
-            case 2: return "O";
-            case 3: return "L";
-            default: return "";
+            case 1:
+                return "";
+            case 2:
+                return "w";
+            case 3:
+                return "o";
+            case 4:
+                return "l";
+            case 5:
+                return "x";
+            case 6:
+                return "";
+            default:
+                return "";
         }
     }
 
