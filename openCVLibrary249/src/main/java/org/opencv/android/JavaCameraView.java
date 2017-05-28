@@ -191,7 +191,6 @@ public class JavaCameraView extends CameraBridgeViewBase implements PreviewCallb
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
                         mSurfaceTexture = new SurfaceTexture(MAGIC_TEXTURE_ID);
                         mCamera.setPreviewTexture(mSurfaceTexture);
-                        setDisplayOrientation(mCamera,180);
 
                     } else
                        mCamera.setPreviewDisplay(null);

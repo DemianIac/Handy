@@ -83,6 +83,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.AdapterView.OnItemClickListener;
 
+import static android.R.attr.id;
 import static android.R.attr.text;
 import static android.media.CamcorderProfile.get;
 
@@ -159,7 +160,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 
     private List<AppInfo> mlistAppInfo = null;
     private MyCameraView mOpenCvCameraView;
-    private MenuItem[] mResolutionMenuItems;
+    //private MenuItem[] mResolutionMenuItems;
     private SubMenu mResolutionMenu;
 
 
@@ -276,10 +277,10 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
                                         toastStr = "Sampling Finished!";
                                     } else if (mode == DETECTION_MODE) {
                                         mode = TRAIN_REC_MODE;
-
-                                        ((Button) findViewById(R.id.AddBtn)).setVisibility(View.VISIBLE);
+//BUTTONS TRAINING
+ /*                                       ((Button) findViewById(R.id.AddBtn)).setVisibility(View.VISIBLE);
                                         ((Button) findViewById(R.id.TrainBtn)).setVisibility(View.VISIBLE);
-                                        ((Button) findViewById(R.id.TestBtn)).setVisibility(View.VISIBLE);
+                                        ((Button) findViewById(R.id.TestBtn)).setVisibility(View.VISIBLE);*/
                                         toastStr = "Binary Display Finished!";
 
                                         preTrain();
@@ -449,15 +450,9 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
         SharedPreferences numbers = getSharedPreferences("Numbers", 0);
         imgNum = numbers.getInt("imgNum", 0);
 
-
-        initOpenCV();
-
         Log.i(TAG, "Created!");
     }
 
-    public void initOpenCV() {
-
-    }
 
     //Things triggered by clicking any items in the menu start here
     @Override
@@ -1018,25 +1013,9 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-
-        mResolutionMenu = menu.addSubMenu("Resolution");
-        if (mOpenCvCameraView.getResolutionList() != null) {
-            mResolutionList = mOpenCvCameraView.getResolutionList();
-
-            mResolutionMenuItems = new MenuItem[mResolutionList.size()];
-
-            ListIterator<Camera.Size> resolutionItr = mResolutionList.listIterator();
-            int idx = 0;
-            while (resolutionItr.hasNext()) {
-                Camera.Size element = resolutionItr.next();
-                mResolutionMenuItems[idx] = mResolutionMenu.add(2, idx, Menu.NONE,
-                        Integer.valueOf(element.width).toString() + "x" + Integer.valueOf(element.height).toString());
-                idx++;
-            }
-        }
         checkCameraParameters();
-
+        Camera.Size resolution = mOpenCvCameraView.getResolutionList().get(9);
+        mOpenCvCameraView.setResolution(resolution);
         return true;
     }
 
