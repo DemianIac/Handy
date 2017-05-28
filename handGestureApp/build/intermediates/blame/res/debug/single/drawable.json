@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable/selector_hand_button.xml",
+        "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable/selector_hand_button.xml"
+    },
+    {
+        "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable/selector_hear_image.xml",
+        "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable/selector_hear_image.xml"
+    }
+]

@@ -24,10 +24,6 @@
         "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/messages.png"
     },
     {
-        "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/error_hear_vbutton.png",
-        "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/error_hear_vbutton.png"
-    },
-    {
         "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/bubble_chat_orange.png",
         "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/bubble_chat_orange.png"
     },
@@ -38,6 +34,14 @@
     {
         "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/handy_logo.png",
         "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/handy_logo.png"
+    },
+    {
+        "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/circle_gray.png",
+        "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/circle_gray.png"
+    },
+    {
+        "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/error_hear_button.png",
+        "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/error_hear_button.png"
     },
     {
         "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/hand_button.png",

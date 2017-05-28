@@ -10,9 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12a815a5-928a-455a-9495-b53edaa7a6e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/handGestureApp/src/main/java/com/example/newdemo/ChatItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/handGestureApp/src/main/res/drawable/selector_hear_image.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/handGestureApp/src/main/res/drawable-xxhdpi/error_hear_vbutton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/error_hear_vbutton.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
@@ -20,53 +18,23 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_handGestureApp_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_handGestureApp_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_handGestureApp_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_handGestureApp_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_handGestureApp_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_handGestureApp_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/BrowseApplicationInfoAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/BrowseApplicationInfoAdapter$ViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/DisplayAppList.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/DisplayAppList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/HomeActivity.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/HomeActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$1$1.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$1.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$2.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$3.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$4.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$5.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$6.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$7.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$8.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$9.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/R$drawable.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/R$id.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/R$layout.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/R$menu.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/R$string.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/R$style.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/R$styleable.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/R$xml.class" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/classes/debug/com/example/newdemo/R$xml.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/incremental/packageDebug/zip-cache/a6JkHNulqZoj_LKLWc051iHIwS8=" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/incremental/packageDebug/zip-cache/a6JkHNulqZoj_LKLWc051iHIwS8=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/pre-dexed/debug/debug_1a92e4943632b92258cfa3c5e579b7847af23e08.jar" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/pre-dexed/debug/debug_1a92e4943632b92258cfa3c5e579b7847af23e08.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/outputs/apk/handGestureApp-debug.apk" afterPath="$PROJECT_DIR$/handGestureApp/build/outputs/apk/handGestureApp-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build.gradle" afterPath="$PROJECT_DIR$/handGestureApp/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/generated/source/r/debug/com/example/newdemo/R.java" afterPath="$PROJECT_DIR$/handGestureApp/build/generated/source/r/debug/com/example/newdemo/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/generated/source/r/debug/com/ipaulpro/afilechooser/R.java" afterPath="$PROJECT_DIR$/handGestureApp/build/generated/source/r/debug/com/ipaulpro/afilechooser/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/res/merged/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/res/merged/debug/layout/chat_item_left.xml" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/res/merged/debug/layout/chat_item_left.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/res/merged/debug/layout/chat_item_right.xml" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/res/merged/debug/layout/chat_item_right.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/handGestureApp/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/src/main/java/com/example/newdemo/MainActivity.java" afterPath="$PROJECT_DIR$/handGestureApp/src/main/java/com/example/newdemo/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/src/main/res/drawable/selector_hand_button.xml" afterPath="$PROJECT_DIR$/handGestureApp/src/main/res/drawable/selector_hand_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/src/main/res/drawable/selector_hear_image.xml" afterPath="$PROJECT_DIR$/handGestureApp/src/main/res/drawable/selector_hear_image.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/handGestureApp/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/src/main/res/layout/chat_item_left.xml" afterPath="$PROJECT_DIR$/handGestureApp/src/main/res/layout/chat_item_left.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handGestureApp/src/main/res/layout/chat_item_right.xml" afterPath="$PROJECT_DIR$/handGestureApp/src/main/res/layout/chat_item_right.xml" />
     </list>
     <ignored path="HandGestureApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,31 +68,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/java/com/example/newdemo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="1399" column="40" selection-start-line="1399" selection-start-column="40" selection-end-line="1399" selection-end-column="40" />
+            <state relative-caret-position="289">
+              <caret line="911" column="31" selection-start-line="911" selection-start-column="31" selection-end-line="911" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4689#4706#0" expanded="true" />
-                <element signature="e#5331#5350#0" expanded="true" />
-                <element signature="e#6744#6752#0" expanded="true" />
-                <element signature="e#7128#7137#0" expanded="true" />
-                <element signature="e#26049#26200#0" expanded="true" />
-                <element signature="e#26199#26200#0" expanded="true" />
-                <element signature="e#49490#49499#0" expanded="true" />
-                <element signature="e#56771#56778#0" expanded="true" />
+                <element signature="e#4602#4619#0" expanded="true" />
+                <element signature="e#5244#5263#0" expanded="true" />
+                <element signature="e#6657#6665#0" expanded="true" />
+                <element signature="e#7041#7050#0" expanded="true" />
+                <element signature="e#26181#26332#0" expanded="true" />
+                <element signature="e#26331#26332#0" expanded="true" />
+                <element signature="e#49681#49690#0" expanded="true" />
+                <element signature="e#56962#56969#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="selector_hand_button.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="selector_hand_button.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/res/drawable/selector_hand_button.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+            <state relative-caret-position="90">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="selector_hear_image.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/res/drawable/selector_hear_image.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -155,11 +146,11 @@
       <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+            <state relative-caret-position="450">
+              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
               <folding>
-                <element signature="e#3570#3590#0" expanded="true" />
-                <element signature="e#3863#3878#0" expanded="true" />
+                <element signature="e#4136#4156#0" expanded="true" />
+                <element signature="e#4429#4444#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2940,7 +2931,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="7478938685879" />
+        <entry key="$PROJECT_DIR$" value="7478943786522" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -3396,14 +3387,14 @@
         <option value="$PROJECT_DIR$/handGestureApp/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/handGestureApp/src/main/res/layout/handy_action_bar.xml" />
         <option value="$PROJECT_DIR$/handGestureApp/src/main/java/com/example/newdemo/ChatItem.java" />
-        <option value="$PROJECT_DIR$/handGestureApp/build.gradle" />
         <option value="$PROJECT_DIR$/handGestureApp/src/main/res/anim/slide_top_to_bottom.xml" />
         <option value="$PROJECT_DIR$/handGestureApp/src/main/res/layout/chat_item_right.xml" />
         <option value="$PROJECT_DIR$/handGestureApp/src/main/res/layout/chat_item_left.xml" />
-        <option value="$PROJECT_DIR$/handGestureApp/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/handGestureApp/src/main/java/com/example/newdemo/MainActivity.java" />
         <option value="$PROJECT_DIR$/handGestureApp/src/main/res/drawable/selector_hear_image.xml" />
         <option value="$PROJECT_DIR$/handGestureApp/src/main/res/drawable/selector_hand_button.xml" />
+        <option value="$PROJECT_DIR$/handGestureApp/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/handGestureApp/build.gradle" />
+        <option value="$PROJECT_DIR$/handGestureApp/src/main/java/com/example/newdemo/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -3443,56 +3434,7 @@
       <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HandGestureApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HandGestureApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="handGestureApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HandGestureApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="handGestureApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HandGestureApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="handGestureApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
     </panes>
   </component>
@@ -3502,7 +3444,7 @@
     <property name="DEBUGGABLE_PROCESS" value="com.raquezha.handgesture" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="DEBUGGER_ID" value="Auto" />
-    <property name="SearchEverywhereHistoryKey" value="mainact&#9;PSI&#9;JAVA://com.example.newdemo.MainActivity&#10;chat&#9;FILE&#9;file:///home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/layout/chat_item_left.xml&#10;sty&#9;FILE&#9;file:///home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/values-v14/styles.xml&#10;inac&#9;FILE&#9;file:///home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/java/com/example/newdemo/MainActivity.java&#10;mainac&#9;FILE&#9;file:///home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/java/com/example/newdemo/MainActivity.java&#10;mycam&#9;FILE&#9;file:///home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/java/com/example/newdemo/MyCameraView.java&#10;main&#9;FILE&#9;file:///home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/layout/activity_main.xml&#10;surface&#9;FILE&#9;file:///home/demianiacono/Android/Sdk/sources/android-19/android/graphics/SurfaceTexture.java" />
+    <property name="SearchEverywhereHistoryKey" value="mani&#9;FILE&#9;file:///home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/AndroidManifest.xml&#10;se&#9;FILE&#9;file:///home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable/selector_hear_image.xml&#10;sele&#9;FILE&#9;file:///home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable/selector_hand_button.xml&#10;mainact&#9;PSI&#9;JAVA://com.example.newdemo.MainActivity&#10;chat&#9;FILE&#9;file:///home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/layout/chat_item_left.xml&#10;sty&#9;FILE&#9;file:///home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/values-v14/styles.xml&#10;inac&#9;FILE&#9;file:///home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/java/com/example/newdemo/MainActivity.java&#10;mainac&#9;FILE&#9;file:///home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/java/com/example/newdemo/MainActivity.java&#10;mycam&#9;FILE&#9;file:///home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/java/com/example/newdemo/MyCameraView.java&#10;main&#9;FILE&#9;file:///home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/layout/activity_main.xml&#10;surface&#9;FILE&#9;file:///home/demianiacono/Android/Sdk/sources/android-19/android/graphics/SurfaceTexture.java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -3809,7 +3751,7 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
       <option name="PREFERRED_AVD" value="" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
@@ -3893,16 +3835,16 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968834" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968834" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25478405" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Memory View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25478405" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Memory View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968834" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24986331" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -4197,17 +4139,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Android/Sdk/sources/android-19/android/app/ActionBar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -4236,14 +4167,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handGestureApp/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -4304,20 +4227,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-          <folding>
-            <element signature="e#3570#3590#0" expanded="true" />
-            <element signature="e#3863#3878#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/java/com/example/newdemo/MyCameraView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -4356,35 +4265,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/res/drawable/selector_hear_image.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="90">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+          <folding>
+            <element signature="e#4136#4156#0" expanded="true" />
+            <element signature="e#4429#4444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handGestureApp/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/res/drawable/selector_hand_button.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/java/com/example/newdemo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="1399" column="40" selection-start-line="1399" selection-start-column="40" selection-end-line="1399" selection-end-column="40" />
+        <state relative-caret-position="289">
+          <caret line="911" column="31" selection-start-line="911" selection-start-column="31" selection-end-line="911" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4689#4706#0" expanded="true" />
-            <element signature="e#5331#5350#0" expanded="true" />
-            <element signature="e#6744#6752#0" expanded="true" />
-            <element signature="e#7128#7137#0" expanded="true" />
-            <element signature="e#26049#26200#0" expanded="true" />
-            <element signature="e#26199#26200#0" expanded="true" />
-            <element signature="e#49490#49499#0" expanded="true" />
-            <element signature="e#56771#56778#0" expanded="true" />
+            <element signature="e#4602#4619#0" expanded="true" />
+            <element signature="e#5244#5263#0" expanded="true" />
+            <element signature="e#6657#6665#0" expanded="true" />
+            <element signature="e#7041#7050#0" expanded="true" />
+            <element signature="e#26181#26332#0" expanded="true" />
+            <element signature="e#26331#26332#0" expanded="true" />
+            <element signature="e#49681#49690#0" expanded="true" />
+            <element signature="e#56962#56969#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handGestureApp/src/main/res/drawable/selector_hand_button.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>

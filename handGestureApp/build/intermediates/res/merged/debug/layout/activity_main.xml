@@ -15,6 +15,17 @@
                 android:layout_height="match_parent"
                 opencv:camera_id="front"
             />
+            <TextView
+                android:id="@+id/text_detected"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="3dp"
+                android:background="@drawable/circle_gray"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:textColor="#FFF"
+                android:textSize="12sp"/>
         </FrameLayout>
         <LinearLayout android:layout_width="match_parent"
                       android:layout_height="match_parent"
@@ -42,20 +53,21 @@
                               android:layout_margin="10dp"
                               android:orientation="horizontal">
 
-                    <ImageButton android:id="@+id/TestBtn"
+                    <ImageButton android:id="@+id/test_btn"
                                  android:layout_width="0dp"
                                  android:layout_height="wrap_content"
                                  android:layout_weight="0.5"
                                  android:background="#FFFF"
                                  android:onClick="test"
-                                 android:src="@drawable/hand_button"
+                                 android:src="@drawable/selector_hand_button"
                     />
-                    <ImageButton android:layout_width="0dp"
+                    <ImageButton android:id="@+id/hear_btn"
+                                 android:layout_width="0dp"
                                  android:layout_height="wrap_content"
                                  android:layout_weight="0.5"
                                  android:background="#FFFF"
                                  android:onClick="hearSpeech"
-                                 android:src="@drawable/hear_button"
+                                 android:src="@drawable/selector_hear_image"
                     />
 
                 </LinearLayout>
@@ -80,12 +92,5 @@
         android:onClick="train"
         android:text="@string/train"
         android:visibility="invisible"/>
-
-    <TextView
-        android:id="@+id/text_detected"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#FFFF"
-        android:text="Test : "/>
 
 </RelativeLayout>
