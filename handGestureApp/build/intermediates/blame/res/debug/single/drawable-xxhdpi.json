@@ -1,6 +1,46 @@
 [
     {
+        "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/hear_button.png",
+        "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/hear_button.png"
+    },
+    {
+        "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/handy_title.png",
+        "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/handy_title.png"
+    },
+    {
+        "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/error_hand_button.png",
+        "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/error_hand_button.png"
+    },
+    {
+        "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/handy_logo_text.png",
+        "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/handy_logo_text.png"
+    },
+    {
         "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png",
         "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/error_hear_vbutton.png",
+        "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/error_hear_vbutton.png"
+    },
+    {
+        "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/bubble_chat_orange.png",
+        "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/bubble_chat_orange.png"
+    },
+    {
+        "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/sound_icon.png",
+        "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/sound_icon.png"
+    },
+    {
+        "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/handy_logo.png",
+        "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/handy_logo.png"
+    },
+    {
+        "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/hand_button.png",
+        "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/hand_button.png"
+    },
+    {
+        "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/bubble_chat_grey.png",
+        "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/bubble_chat_grey.png"
     }
 ]

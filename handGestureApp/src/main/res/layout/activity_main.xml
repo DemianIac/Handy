@@ -16,64 +16,70 @@
                 opencv:camera_id="front"
             />
         </FrameLayout>
-        <FrameLayout android:layout_width="wrap_content"
-                     android:layout_height="match_parent">
-            <Button
-                android:id="@+id/AddBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="66dp"
-                android:onClick="addNewGesture"
-                android:text="@string/AddGesture"
-                android:visibility="invisible"/>
-
-            <Button
-                android:id="@+id/TrainBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="120dp"
-                android:onClick="train"
-                android:text="@string/train"
-                android:visibility="invisible"/>
-
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+            <ScrollView android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.7">
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="0dp"
+                              android:showDividers="middle"
+                              android:orientation="vertical">
+                    <include layout="@layout/chat_item_left"/>
+                    <include layout="@layout/chat_item_right"/>
+                    <include layout="@layout/chat_item_right"/>
+                </LinearLayout>
+            </ScrollView>
             <LinearLayout android:layout_width="match_parent"
                           android:layout_height="wrap_content"
-                          android:orientation="horizontal"
-                          android:layout_gravity="bottom">
-                <Button android:id="@+id/TestBtn"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="0.5"
-                        android:onClick="test"
-                        android:text="Record Signs"
+                          android:layout_gravity="bottom"
+                          android:layout_margin="10dp"
+                          android:orientation="horizontal">
+
+                <ImageButton android:id="@+id/TestBtn"
+                             android:layout_width="0dp"
+                             android:layout_height="wrap_content"
+                             android:layout_weight="0.5"
+                             android:background="#FFFF"
+                             android:onClick="test"
+                             android:src="@drawable/hand_button"
                 />
-                <Button android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="0.5"
-                        android:onClick="hearSpeech"
-                        android:text="Translate speech"
+                <ImageButton android:layout_width="0dp"
+                             android:layout_height="wrap_content"
+                             android:layout_weight="0.5"
+                             android:background="#FFFF"
+                             android:onClick="hearSpeech"
+                             android:src="@drawable/hear_button"
                 />
+
             </LinearLayout>
-        </FrameLayout>
+        </LinearLayout>
     </LinearLayout>
 
-
-
-<!--    <Button
-        android:id="@+id/TestBtn"
+    <Button
+        android:id="@+id/AddBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/TrainBtn"
-        android:onClick="test"
-        android:text="@string/test"
-        android:visibility="invisible"/>-->
+        android:layout_marginTop="66dp"
+        android:onClick="addNewGesture"
+        android:text="@string/AddGesture"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/TrainBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:onClick="train"
+        android:text="@string/train"
+        android:visibility="invisible"/>
 
     <TextView
         android:id="@+id/text_detected"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-              android:background="#FFFF"
-              android:text="Test : "/>
+        android:background="#FFFF"
+        android:text="Test : "/>
 
 </RelativeLayout>

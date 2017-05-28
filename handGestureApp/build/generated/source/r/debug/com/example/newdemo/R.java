@@ -47,28 +47,40 @@ containing a value of this type.
         public static final int list_padding=0x7f060003;
     }
     public static final class drawable {
-        public static final int ic_chooser=0x7f020000;
-        public static final int ic_file=0x7f020001;
-        public static final int ic_folder=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int ic_provider=0x7f020004;
+        public static final int bubble_chat_grey=0x7f020000;
+        public static final int bubble_chat_orange=0x7f020001;
+        public static final int error_hand_button=0x7f020002;
+        public static final int error_hear_vbutton=0x7f020003;
+        public static final int hand_button=0x7f020004;
+        public static final int handy_logo=0x7f020005;
+        public static final int handy_logo_text=0x7f020006;
+        public static final int handy_title=0x7f020007;
+        public static final int hear_button=0x7f020008;
+        public static final int ic_chooser=0x7f020009;
+        public static final int ic_file=0x7f02000a;
+        public static final int ic_folder=0x7f02000b;
+        public static final int ic_launcher=0x7f02000c;
+        public static final int ic_provider=0x7f02000d;
+        public static final int sound_icon=0x7f02000e;
     }
     public static final class id {
-        public static final int AddBtn=0x7f0a0004;
+        public static final int AddBtn=0x7f0a0005;
         public static final int HandGestureApp=0x7f0a0003;
-        public static final int TestBtn=0x7f0a0006;
-        public static final int TrainBtn=0x7f0a0005;
-        public static final int action_save=0x7f0a0010;
-        public static final int action_settings=0x7f0a000f;
+        public static final int TestBtn=0x7f0a0004;
+        public static final int TrainBtn=0x7f0a0006;
+        public static final int action_save=0x7f0a0012;
+        public static final int action_settings=0x7f0a0011;
         public static final int any=0x7f0a0000;
-        public static final int app_test=0x7f0a0013;
+        public static final int app_test=0x7f0a0015;
         public static final int back=0x7f0a0001;
-        public static final int beginButton=0x7f0a000e;
-        public static final int data_collection=0x7f0a0011;
+        public static final int beginButton=0x7f0a0010;
+        public static final int chat_item_left=0x7f0a000e;
+        public static final int data_collection=0x7f0a0013;
         public static final int front=0x7f0a0002;
         public static final int imgApp=0x7f0a0008;
+        public static final int item_text=0x7f0a000f;
         public static final int listviewApp=0x7f0a000d;
-        public static final int map_apps=0x7f0a0012;
+        public static final int map_apps=0x7f0a0014;
         public static final int text_detected=0x7f0a0007;
         public static final int tvAppLabel=0x7f0a000a;
         public static final int tvLabel=0x7f0a0009;
@@ -80,8 +92,11 @@ containing a value of this type.
         public static final int activity_main=0x7f030001;
         public static final int browse_app_item=0x7f030002;
         public static final int browse_app_list=0x7f030003;
-        public static final int file=0x7f030004;
-        public static final int home=0x7f030005;
+        public static final int chat_item_left=0x7f030004;
+        public static final int chat_item_right=0x7f030005;
+        public static final int file=0x7f030006;
+        public static final int handy_action_bar=0x7f030007;
+        public static final int home=0x7f030008;
     }
     public static final class menu {
         public static final int display_app_list=0x7f090000;
@@ -108,7 +123,6 @@ containing a value of this type.
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
- API 14 theme customizations can go here. 
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
@@ -118,8 +132,9 @@ containing a value of this type.
         public static final int AppBaseTheme=0x7f070000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
-        public static final int fileChooserName=0x7f070002;
+        public static final int AppTheme=0x7f070002;
+        public static final int MyActionBar=0x7f070001;
+        public static final int fileChooserName=0x7f070003;
     }
     public static final class xml {
         public static final int mimetypes=0x7f040000;

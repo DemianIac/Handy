@@ -1,5 +1,6 @@
 package com.example.newdemo;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
@@ -23,7 +24,6 @@ import android.support.v4.view.MotionEventCompat;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MotionEvent;
-import android.view.SubMenu;
 import android.view.SurfaceView;
 import android.view.View;
 import android.view.View.OnTouchListener;
@@ -366,9 +366,11 @@ public class MainActivity extends Activity implements CvCameraViewListener2, Tex
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getActionBar().setDisplayShowTitleEnabled(false);
+        getActionBar().setDisplayShowCustomEnabled(true);
+        getActionBar().setCustomView(R.layout.handy_action_bar);
+        getActionBar().setIcon(R.drawable.handy_logo);
 
-        getActionBar().setTitle("Handy");
-        getActionBar().setico
         tts = new TextToSpeech(this, this);
         textDetected = (TextView) findViewById(R.id.text_detected);
 

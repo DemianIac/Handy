@@ -9,7 +9,7 @@
                     "startOffset": 55,
                     "endLine": 4,
                     "endColumn": 12,
-                    "endOffset": 201
+                    "endOffset": 213
                 },
                 "from": {
                     "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/values-v14/styles.xml",
@@ -19,7 +19,28 @@
                         "startOffset": 220,
                         "endLine": 9,
                         "endColumn": 12,
-                        "endOffset": 366
+                        "endOffset": 378
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 218,
+                    "endLine": 7,
+                    "endColumn": 12,
+                    "endOffset": 364
+                },
+                "from": {
+                    "file": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/values-v14/styles.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 384,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 530
                     }
                 }
             }
