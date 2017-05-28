@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun May 28 05:42:27 ART 2017
+#Sun May 28 06:17:51 ART 2017
 25.file=/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/resources-debug.ap_/res/drawable/selector_hear_image.xml
 25.base=/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/resources-debug.ap_
 22.set=ANDROID_RESOURCE

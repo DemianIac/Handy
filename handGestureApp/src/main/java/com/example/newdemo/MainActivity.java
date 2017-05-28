@@ -708,7 +708,6 @@ public class MainActivity extends Activity implements CvCameraViewListener2, Tex
                 if (resultCode == RESULT_OK && data != null) {
                     ArrayList<String> result = data
                             .getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
-                    textDetected.setText(result.get(0));
                     ChatItem chatItem = new ChatItem(this, ChatItem.ITEM_LEFT, result.get(0));
 
                     chatItem.animate().translationX(-30)
