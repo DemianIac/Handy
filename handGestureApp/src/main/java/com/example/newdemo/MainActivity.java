@@ -1,6 +1,5 @@
 package com.example.newdemo;
 
-import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
@@ -27,7 +26,12 @@ import android.view.MotionEvent;
 import android.view.SurfaceView;
 import android.view.View;
 import android.view.View.OnTouchListener;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -207,13 +211,15 @@ public class MainActivity extends Activity implements CvCameraViewListener2, Tex
     File sdCardDir = Environment.getExternalStorageDirectory();
     File sdFile = new File(sdCardDir, "AppMap.txt");
 
+    //Wolox
     private TextView textDetected;
-
     private static final Integer RepetitionThreshold = 8;
     private ArrayList<Integer> gesturesRecognized = new ArrayList(RepetitionThreshold);
     private ArrayList<Integer> finalGestures = new ArrayList<Integer>();
-
     private TextToSpeech tts;
+    LinearLayout mChatList;
+    ScrollView mScrollView;
+
     private final int REQ_CODE_SPEECH_INPUT = 100;
 
     private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
@@ -257,7 +263,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2, Tex
 //BUTTONS TRAINING
                                         ((Button) findViewById(R.id.AddBtn)).setVisibility(View.VISIBLE);
                                         ((Button) findViewById(R.id.TrainBtn)).setVisibility(View.VISIBLE);
-                                        ((Button) findViewById(R.id.TestBtn)).setVisibility(View.VISIBLE);
+                                        ((ImageView) findViewById(R.id.TestBtn)).setVisibility(View.VISIBLE);
                                         toastStr = "Binary Display Finished!";
 
                                         preTrain();
@@ -266,7 +272,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2, Tex
                                         mode = DETECTION_MODE;
                                         ((Button) findViewById(R.id.AddBtn)).setVisibility(View.INVISIBLE);
                                         ((Button) findViewById(R.id.TrainBtn)).setVisibility(View.INVISIBLE);
-                                        ((Button) findViewById(R.id.TestBtn)).setVisibility(View.INVISIBLE);
+                                        ((ImageView) findViewById(R.id.TestBtn)).setVisibility(View.INVISIBLE);
 
                                         toastStr = "train finished!";
                                     } else if (mode == BACKGROUND_MODE) {
@@ -366,13 +372,19 @@ public class MainActivity extends Activity implements CvCameraViewListener2, Tex
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Wolox
         getActionBar().setDisplayShowTitleEnabled(false);
         getActionBar().setDisplayShowCustomEnabled(true);
         getActionBar().setCustomView(R.layout.handy_action_bar);
         getActionBar().setIcon(R.drawable.handy_logo);
 
+        mChatList = (LinearLayout) findViewById(R.id.chat_list);
+        mScrollView = (ScrollView) findViewById(R.id.scroll_chat);
+
         tts = new TextToSpeech(this, this);
         textDetected = (TextView) findViewById(R.id.text_detected);
+
 
         try {
             FileInputStream fis = new FileInputStream(sdFile);
@@ -696,11 +708,28 @@ public class MainActivity extends Activity implements CvCameraViewListener2, Tex
                     ArrayList<String> result = data
                             .getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
                     textDetected.setText(result.get(0));
+                    ChatItem chatItem = new ChatItem(this, ChatItem.ITEM_LEFT, result.get(0));
+
+                    chatItem.animate().translationX(-30)
+                            .setDuration(300)
+                            .setListener(null);
+                    mChatList.addView(chatItem);
+                    scrollDown();
+
                 }
                 break;
             }
         }
         super.onActivityResult(requestCode, resultCode, data);
+    }
+
+    private void scrollDown() {
+        mScrollView.post(new Runnable() {
+            @Override
+            public void run() {
+                mScrollView.fullScroll(View.FOCUS_DOWN);
+            }
+        });
     }
 
     //Start a new activity containing a list of callable apps
@@ -866,9 +895,19 @@ public class MainActivity extends Activity implements CvCameraViewListener2, Tex
 
     public void readOutLoud() {
         String text = "";
-        for (Integer gesture: finalGestures) {
+        for (Integer gesture : finalGestures) {
             text += letterFor(gesture).toLowerCase();
         }
+
+        ChatItem chatItem = new ChatItem(this, ChatItem.ITEM_RIGHT, text);
+
+        chatItem.animate().translationXBy(30)
+                .setDuration(300)
+                .setListener(null);
+
+        mChatList.addView(chatItem);
+        scrollDown();
+
         tts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
         finalGestures.clear();
     }
@@ -896,12 +935,12 @@ public class MainActivity extends Activity implements CvCameraViewListener2, Tex
     public void test(View view) {
         if (mode == TRAIN_REC_MODE) {
             mode = TEST_MODE;
-            ((Button) findViewById(R.id.TestBtn)).setText("Stop recording");
+            //((ImageView) findViewById(R.id.TestBtn)).setText("Stop recording");
         } else if (mode == TEST_MODE) {
             gesturesRecognized.clear();
             readOutLoud();
             mode = TRAIN_REC_MODE;
-            ((Button) findViewById(R.id.TestBtn)).setText("Record Signs");
+            //((ImageView) findViewById(R.id.TestBtn)).setText("Record Signs");
         }
     }
 
@@ -1141,7 +1180,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2, Tex
             hg = new HandGesture();
 
 
-        mColorsRGB = new Scalar[]{new Scalar(255, 0, 0, 255), new Scalar(0, 255, 0, 255), new Scalar(0, 0, 255, 255)};
+        mColorsRGB = new Scalar[]{new Scalar(255, 0, 0, 255), new Scalar(0, 255, 0, 255), new Scalar(0, 0, 255, 255) , new Scalar(237, 147, 47)};
 
     }
 
@@ -1308,7 +1347,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2, Tex
         int cols = img.cols();
         int rows = img.rows();
         squareLen = rows / 20;
-        Scalar color = mColorsRGB[2];  //Blue Outline
+        Scalar color = mColorsRGB[3];  //Blue Outline
 
 
         samplePoints[0][0].x = cols / 2;
@@ -1351,7 +1390,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2, Tex
         int cols = img.cols();
         int rows = img.rows();
         squareLen = rows / 20;
-        Scalar color = mColorsRGB[2];  //Blue Outline
+        Scalar color = mColorsRGB[3];  //Blue Outline
 
 
         samplePoints[0][0].x = cols / 6;

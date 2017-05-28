@@ -61,31 +61,35 @@ containing a value of this type.
         public static final int ic_folder=0x7f02000b;
         public static final int ic_launcher=0x7f02000c;
         public static final int ic_provider=0x7f02000d;
-        public static final int sound_icon=0x7f02000e;
+        public static final int messages=0x7f02000e;
+        public static final int sound_icon=0x7f02000f;
     }
     public static final class id {
-        public static final int AddBtn=0x7f0a0005;
+        public static final int AddBtn=0x7f0a0007;
         public static final int HandGestureApp=0x7f0a0003;
-        public static final int TestBtn=0x7f0a0004;
-        public static final int TrainBtn=0x7f0a0006;
-        public static final int action_save=0x7f0a0012;
-        public static final int action_settings=0x7f0a0011;
+        public static final int TestBtn=0x7f0a0006;
+        public static final int TrainBtn=0x7f0a0008;
+        public static final int action_save=0x7f0a0015;
+        public static final int action_settings=0x7f0a0014;
         public static final int any=0x7f0a0000;
-        public static final int app_test=0x7f0a0015;
+        public static final int app_test=0x7f0a0018;
         public static final int back=0x7f0a0001;
-        public static final int beginButton=0x7f0a0010;
-        public static final int chat_item_left=0x7f0a000e;
-        public static final int data_collection=0x7f0a0013;
+        public static final int beginButton=0x7f0a0013;
+        public static final int chat_item_left=0x7f0a0010;
+        public static final int chat_item_right=0x7f0a0012;
+        public static final int chat_list=0x7f0a0005;
+        public static final int data_collection=0x7f0a0016;
         public static final int front=0x7f0a0002;
-        public static final int imgApp=0x7f0a0008;
-        public static final int item_text=0x7f0a000f;
-        public static final int listviewApp=0x7f0a000d;
-        public static final int map_apps=0x7f0a0014;
-        public static final int text_detected=0x7f0a0007;
-        public static final int tvAppLabel=0x7f0a000a;
-        public static final int tvLabel=0x7f0a0009;
-        public static final int tvName=0x7f0a000b;
-        public static final int tvPkgName=0x7f0a000c;
+        public static final int imgApp=0x7f0a000a;
+        public static final int item_text=0x7f0a0011;
+        public static final int listviewApp=0x7f0a000f;
+        public static final int map_apps=0x7f0a0017;
+        public static final int scroll_chat=0x7f0a0004;
+        public static final int text_detected=0x7f0a0009;
+        public static final int tvAppLabel=0x7f0a000c;
+        public static final int tvLabel=0x7f0a000b;
+        public static final int tvName=0x7f0a000d;
+        public static final int tvPkgName=0x7f0a000e;
     }
     public static final class layout {
         public static final int activity_display_app_list=0x7f030000;

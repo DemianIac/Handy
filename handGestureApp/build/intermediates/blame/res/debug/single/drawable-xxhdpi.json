@@ -20,6 +20,10 @@
         "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/messages.png",
+        "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/messages.png"
+    },
+    {
         "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/error_hear_vbutton.png",
         "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/error_hear_vbutton.png"
     },

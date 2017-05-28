@@ -19,40 +19,46 @@
         <LinearLayout android:layout_width="match_parent"
                       android:layout_height="match_parent"
                       android:orientation="vertical">
-            <ScrollView android:layout_width="wrap_content"
-                        android:layout_height="0dp"
-                        android:layout_weight="0.7">
-                <LinearLayout android:layout_width="match_parent"
-                              android:layout_height="0dp"
-                              android:showDividers="middle"
-                              android:orientation="vertical">
-                    <include layout="@layout/chat_item_left"/>
-                    <include layout="@layout/chat_item_right"/>
-                    <include layout="@layout/chat_item_right"/>
-                </LinearLayout>
-            </ScrollView>
+            <ImageView android:layout_width="match_parent" android:layout_height="20dp"
+                       android:layout_margin="3dp"
+                       android:scaleType="fitXY"
+                       android:src="@drawable/messages"/>
             <LinearLayout android:layout_width="match_parent"
-                          android:layout_height="wrap_content"
-                          android:layout_gravity="bottom"
-                          android:layout_margin="10dp"
-                          android:orientation="horizontal">
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+                <ScrollView android:id="@+id/scroll_chat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.7">
+                    <LinearLayout android:id="@+id/chat_list"
+                                  android:layout_width="match_parent"
+                                  android:layout_height="0dp"
+                                  android:orientation="vertical">
+                    </LinearLayout>
+                </ScrollView>
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_gravity="bottom"
+                              android:layout_margin="10dp"
+                              android:orientation="horizontal">
 
-                <ImageButton android:id="@+id/TestBtn"
-                             android:layout_width="0dp"
-                             android:layout_height="wrap_content"
-                             android:layout_weight="0.5"
-                             android:background="#FFFF"
-                             android:onClick="test"
-                             android:src="@drawable/hand_button"
-                />
-                <ImageButton android:layout_width="0dp"
-                             android:layout_height="wrap_content"
-                             android:layout_weight="0.5"
-                             android:background="#FFFF"
-                             android:onClick="hearSpeech"
-                             android:src="@drawable/hear_button"
-                />
+                    <ImageButton android:id="@+id/TestBtn"
+                                 android:layout_width="0dp"
+                                 android:layout_height="wrap_content"
+                                 android:layout_weight="0.5"
+                                 android:background="#FFFF"
+                                 android:onClick="test"
+                                 android:src="@drawable/hand_button"
+                    />
+                    <ImageButton android:layout_width="0dp"
+                                 android:layout_height="wrap_content"
+                                 android:layout_weight="0.5"
+                                 android:background="#FFFF"
+                                 android:onClick="hearSpeech"
+                                 android:src="@drawable/hear_button"
+                    />
 
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
