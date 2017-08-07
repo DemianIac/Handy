@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/clear.png",
+        "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/clear.png"
+    },
+    {
+        "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/training_mode.png",
+        "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/training_mode.png"
+    },
+    {
         "merged": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/build/intermediates/res/merged/debug/drawable-xxhdpi/hear_button.png",
         "source": "/home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/res/drawable-xxhdpi/hear_button.png"
     },

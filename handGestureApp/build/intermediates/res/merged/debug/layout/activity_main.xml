@@ -26,6 +26,30 @@
                 android:textAllCaps="true"
                 android:textColor="#FFF"
                 android:textSize="12sp"/>
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="bottom|right"
+                          android:orientation="vertical">
+                <ImageButton android:id="@+id/training_mode_btn"
+                             android:layout_width="20dp"
+                             android:layout_height="20dp"
+                             android:layout_margin="10dp"
+                             android:background="#00FFFFFF"
+                             android:onClick="trainingMode"
+                             android:scaleType="fitXY"
+                             android:src="@drawable/training_mode"
+                             android:visibility="invisible"/>
+
+                <ImageButton android:id="@+id/clean_btn"
+                             android:layout_width="20dp"
+                             android:layout_height="20dp"
+                             android:layout_margin="10dp"
+                             android:background="#00FFFFFF"
+                             android:onClick="clean"
+                             android:scaleType="fitXY"
+                             android:src="@drawable/clear"
+                             android:visibility="invisible"/>
+            </LinearLayout>
         </FrameLayout>
         <LinearLayout android:layout_width="match_parent"
                       android:layout_height="match_parent"

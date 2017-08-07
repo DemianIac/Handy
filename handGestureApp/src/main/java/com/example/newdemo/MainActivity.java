@@ -13,6 +13,7 @@ import android.content.pm.ResolveInfo;
 import android.graphics.drawable.Drawable;
 import android.hardware.Camera;
 import android.hardware.Camera.AutoFocusCallback;
+import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -27,6 +28,7 @@ import android.view.SurfaceView;
 import android.view.View;
 import android.view.View.OnTouchListener;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
@@ -64,6 +66,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+
+import static android.view.View.VISIBLE;
 
 public class MainActivity extends Activity implements CvCameraViewListener2, TextToSpeech.OnInitListener {
 
@@ -211,7 +215,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2, Tex
 
     //Wolox
     private TextView textDetected;
-    private static final Integer RepetitionThreshold = 8;
+    private static final Integer RepetitionThreshold = 6;
     private ArrayList<Integer> gesturesRecognized = new ArrayList(RepetitionThreshold);
     private ArrayList<Integer> finalGestures = new ArrayList<Integer>();
     private TextToSpeech tts;
@@ -261,9 +265,8 @@ public class MainActivity extends Activity implements CvCameraViewListener2, Tex
                                     } else if (mode == DETECTION_MODE) {
                                         mode = TRAIN_REC_MODE;
 //BUTTONS TRAINING
-                                        ((Button) findViewById(R.id.AddBtn)).setVisibility(View.VISIBLE);
-                                        ((Button) findViewById(R.id.TrainBtn)).setVisibility(View.VISIBLE);
-                                        ((ImageView) findViewById(R.id.test_btn)).setVisibility(View.VISIBLE);
+                                        ((ImageButton) findViewById(R.id.training_mode_btn)).setVisibility(VISIBLE);
+                                        ((ImageView) findViewById(R.id.test_btn)).setVisibility(VISIBLE);
                                         toastStr = "Binary Display Finished!";
 
                                         preTrain();
@@ -281,7 +284,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2, Tex
                                         mode = SAMPLE_MODE;
                                     }
 
-                                    Toast.makeText(getApplicationContext(), toastStr, Toast.LENGTH_LONG).show();
+                                    //Toast.makeText(getApplicationContext(), toastStr, Toast.LENGTH_LONG).show();
                                     return false;
                                 case (MotionEvent.ACTION_MOVE):
                                     Log.d(TAG, "Action was MOVE");
@@ -410,7 +413,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2, Tex
         }
 
         mOpenCvCameraView = (MyCameraView) findViewById(R.id.HandGestureApp);
-        mOpenCvCameraView.setVisibility(SurfaceView.VISIBLE);
+        mOpenCvCameraView.setVisibility(VISIBLE);
         mOpenCvCameraView.setCvCameraViewListener(this);
 
         samplePoints = new Point[SAMPLE_NUM][2];
@@ -708,12 +711,15 @@ public class MainActivity extends Activity implements CvCameraViewListener2, Tex
                 if (resultCode == RESULT_OK && data != null) {
                     ArrayList<String> result = data
                             .getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
-                    ChatItem chatItem = new ChatItem(this, ChatItem.ITEM_LEFT, result.get(0));
+                    ChatItem chatItem;
+                    if (!(result.get(0)).trim().isEmpty()) {
+                        chatItem = new ChatItem(this, ChatItem.ITEM_LEFT, result.get(0));
 
-                    chatItem.animate().translationX(-30)
-                            .setDuration(300)
-                            .setListener(null);
-                    mChatList.addView(chatItem);
+                        chatItem.animate().translationX(-30)
+                                .setDuration(300)
+                                .setListener(null);
+                        mChatList.addView(chatItem);
+                    }
                     scrollDown();
                     mHearBtn.setActivated(false);
 
@@ -900,13 +906,18 @@ public class MainActivity extends Activity implements CvCameraViewListener2, Tex
             text += letterFor(gesture).toLowerCase();
         }
 
-        ChatItem chatItem = new ChatItem(this, ChatItem.ITEM_RIGHT, text);
+        ChatItem chatItem;
 
-        chatItem.animate().translationXBy(30)
-                .setDuration(300)
-                .setListener(null);
+        Log.d(TAG, "readOutLoud: " + text);
+        if (!text.trim().isEmpty()) {
+            chatItem = new ChatItem(this, ChatItem.ITEM_RIGHT, text);
 
-        mChatList.addView(chatItem);
+            chatItem.animate().translationXBy(30)
+                    .setDuration(300)
+                    .setListener(null);
+
+            mChatList.addView(chatItem);
+        }
         scrollDown();
         textDetected.setText("");
         tts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
@@ -937,13 +948,35 @@ public class MainActivity extends Activity implements CvCameraViewListener2, Tex
         if (mode == TRAIN_REC_MODE) {
             mode = TEST_MODE;
             mTestBtn.setActivated(true);
+            ((ImageButton) findViewById(R.id.clean_btn)).setVisibility(VISIBLE);
             //((ImageView) findViewById(R.id.TestBtn)).setText("Stop recording");
         } else if (mode == TEST_MODE) {
+            ((ImageButton) findViewById(R.id.clean_btn)).setVisibility(View.INVISIBLE);
             gesturesRecognized.clear();
             readOutLoud();
             mode = TRAIN_REC_MODE;
             mTestBtn.setActivated(false);
             //((ImageView) findViewById(R.id.TestBtn)).setText("Record Signs");
+        }
+    }
+
+    public void clean(View view) {
+        if (mode == TEST_MODE) {
+            mode = TRAIN_REC_MODE;
+            gesturesRecognized.clear();
+            finalGestures.clear();
+            textDetected.setText("");
+            mTestBtn.setActivated(false);
+        }
+    }
+
+    public void trainingMode(View view) {
+        if (((Button) findViewById(R.id.AddBtn)).getVisibility() == View.VISIBLE) {
+            ((Button) findViewById(R.id.AddBtn)).setVisibility(View.INVISIBLE);
+            ((Button) findViewById(R.id.TrainBtn)).setVisibility(View.INVISIBLE);
+        } else {
+            ((Button) findViewById(R.id.AddBtn)).setVisibility(View.VISIBLE);
+            ((Button) findViewById(R.id.TrainBtn)).setVisibility(View.VISIBLE);
         }
     }
 

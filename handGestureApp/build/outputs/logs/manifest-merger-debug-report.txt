@@ -64,7 +64,7 @@ ADDED from /home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureAp
 activity#com.example.newdemo.HomeActivity
 ADDED from /home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/AndroidManifest.xml:31:9-34:20
 	android:label
-		ADDED from /home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/AndroidManifest.xml:32:13-45
+		ADDED from /home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/AndroidManifest.xml:32:13-34
 	android:name
 		ADDED from /home/demianiacono/AndroidStudioProjects/HandGestureApp/handGestureApp/src/main/AndroidManifest.xml:31:19-47
 activity#com.ipaulpro.afilechooser.FileChooserActivity
